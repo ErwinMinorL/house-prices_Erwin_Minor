@@ -7,7 +7,7 @@
 - [Estructura del Repositorio](#estructura-del-repositorio)
 - [Instalación](#instalación)
 - [Cómo Ejecutar](#cómo-ejecutar)
-- [Data Model](#data-model)
+- [Arquitectura](#arquitectura)
 
 ## Descripción
 Es un proyecto que utiliza la data de Kaggle para realizar un flujo de trabajo en el que se realiza la preparación de datos, entrenamiento de modelos e inferencia para predecir el precio de casas utilizando un modelo de RandomForest.
@@ -26,6 +26,8 @@ Es un proyecto que utiliza la data de Kaggle para realizar un flujo de trabajo e
 ├── data
 │   ├── data_description.txt
 │   └── train.csv
+├── images
+│   ├── Arquitectura.png
 ├── inference.py
 ├── notebooks
 │   └── Model.ipynb
@@ -50,5 +52,5 @@ python src/train.py
 python src/inference.py
 ```
 
-## Data Model
-
+## Arquitectura
+(/workspaces/house-prices_Erwin_Minor/images/Arquitectura.png)
