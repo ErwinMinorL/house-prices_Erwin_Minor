@@ -20,6 +20,7 @@ Es un proyecto que utiliza la data de Kaggle para realizar un flujo de trabajo e
 - Output: Son los precios de las casas estimados con el modelo ya ajustado con los parámetros calculados.
 
 ## Estructura del Repositorio
+```
 .
 ├── README.md
 ├── data
@@ -31,6 +32,7 @@ Es un proyecto que utiliza la data de Kaggle para realizar un flujo de trabajo e
 ├── prep.py
 ├── src
 └── train.py
+```
 
 ## Instalación
 Instrucciones paso a paso para configurar el entorno de desarrollo o producción:
@@ -38,12 +40,14 @@ Instrucciones paso a paso para configurar el entorno de desarrollo o producción
 git clone [URL del repositorio]
 cd house-prices_Erwin_Minor
 pip install -r requirements.txt
+```
 
 ## Cómo ejecutar
 ```bash
 python src/prep.py
 python src/train.py
 python src/inference.py
+```
 
 ## Data Model
 
