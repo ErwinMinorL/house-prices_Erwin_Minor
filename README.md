@@ -53,4 +53,4 @@ python src/inference.py
 ```
 
 ## Arquitectura
-(/workspaces/house-prices_Erwin_Minor/images/Arquitectura.png)
+![Arquitectura](images/Arquitectura.png)
