@@ -13,19 +13,37 @@
 Es un proyecto que utiliza la data de Kaggle para realizar un flujo de trabajo en el que se realiza la preparación de datos, entrenamiento de modelos e inferencia para predecir el precio de casas utilizando un modelo de RandomForest.
 
 ## Dependencias
-Lista de bibliotecas, herramientas y tecnologías necesarias para ejecutar el proyecto. Esto puede incluir versiones específicas de lenguajes de programación, librerías o sistemas.
+
 
 ## Inputs/Outputs
-Descripción de los datos de entrada y salida del proceso. Esto incluye formatos de archivos, estructuras de datos esperadas y ejemplos de cómo deben ser los inputs y outputs.
+- Input: Son los datos con los que se van a entrenar el modelo, incluye todas las variables.
+- Output: Son los precios de las casas estimados con el modelo ya ajustado con los parámetros calculados.
 
 ## Estructura del Repositorio
-Descripción de la organización de los directorios y archivos en el repositorio:
+.
+├── README.md
+├── data
+│   ├── data_description.txt
+│   └── train.csv
+├── inference.py
+├── notebooks
+│   └── Model.ipynb
+├── prep.py
+├── src
+└── train.py
 
 ## Instalación
 Instrucciones paso a paso para configurar el entorno de desarrollo o producción:
 ```bash
 git clone [URL del repositorio]
-cd [Nombre del Repositorio]
+cd house-prices_Erwin_Minor
 pip install -r requirements.txt
 
+## Cómo ejecutar
+```bash
+python src/prep.py
+python src/train.py
+python src/inference.py
+
+## Data Model
 
